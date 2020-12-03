@@ -2,10 +2,10 @@ const Pool = require("pg").Pool;
 
 const devConfig = {
     user: "postgres",
-    password: "shoes@loose",
     host: "localhost",
     port: 5432,
-    database: "interntask",
+    password:"password",
+    database: "miniproject",
 };
 
 const prodConfig = {
